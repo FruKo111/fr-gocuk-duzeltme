@@ -13,8 +13,8 @@
 # production
 /build
 
-# large media files (host separately)
-/public/videos/0603.mp4
+# misc
+.DS_Store
 *.pem
 
 # debug
