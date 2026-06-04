@@ -3,9 +3,12 @@
 import { useState, useEffect } from "react";
 import SiteData from "@/data/site-data.json";
 import { cn } from "@/lib/utils";
+import { MessageCircle } from "lucide-react";
 
 const navLinks = [
+  { label: "Hakkımızda", href: "#hakkimizda" },
   { label: "Hizmetler", href: "#hizmetler" },
+  { label: "PPF Kaplama", href: "#ppf-kaplama" },
   { label: "Galeri", href: "#galeri" },
   { label: "İletişim", href: "#iletisim" },
 ];
@@ -13,6 +16,7 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { business } = SiteData;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,6 +50,10 @@ export default function Navbar() {
     }
   };
 
+  const handleWhatsApp = () => {
+    window.open(`https://wa.me/${business.whatsapp}`, "_blank");
+  };
+
   return (
     <header
       className={cn(
@@ -57,12 +65,12 @@ export default function Navbar() {
     >
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-12 lg:px-24 flex items-center justify-between">
         {/* Logo */}
-        <a
-          href="#"
-          className="text-text-primary font-bold tracking-ultra text-xs sm:text-sm md:text-base uppercase"
-        >
-          <span className="text-accent">FR</span>
-          <span className="ml-1 opacity-80">Göçük Düzeltme</span>
+        <a href="#" className="flex items-center gap-1 flex-shrink-0">
+          <img
+            src="/images/gallery/autoprimeatasehirlogo.png"
+            alt="Autoprime Ataşehir"
+            className="h-8 sm:h-10 md:h-12 w-auto object-contain"
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -77,6 +85,15 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+
+          {/* Rezervasyon CTA */}
+          <button
+            onClick={handleWhatsApp}
+            className="ml-2 inline-flex items-center gap-2 bg-accent text-black font-semibold px-4 py-2 rounded-xl text-xs tracking-wider uppercase hover:accent-glow hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+          >
+            <MessageCircle className="w-3.5 h-3.5" />
+            Rezervasyon
+          </button>
         </nav>
 
         {/* Mobile hamburger */}
@@ -108,6 +125,18 @@ export default function Navbar() {
             {link.label}
           </a>
         ))}
+
+        {/* Mobile CTA */}
+        <button
+          onClick={() => {
+            setMobileOpen(false);
+            handleWhatsApp();
+          }}
+          className="mt-4 inline-flex items-center gap-3 bg-accent text-black font-bold px-8 py-4 rounded-2xl text-base tracking-wider uppercase"
+        >
+          <MessageCircle className="w-5 h-5" />
+          Rezervasyon
+        </button>
       </div>
     </header>
   );

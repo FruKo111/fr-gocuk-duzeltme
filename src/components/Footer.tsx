@@ -156,7 +156,7 @@ export default function Footer({
                         Instagram
                       </span>
                       <span className="text-text-primary font-semibold tracking-wide group-hover:text-accent transition-colors text-sm sm:text-base">
-                        @fr.gocukduzeltme
+                        @autoprimeatasehir
                       </span>
                     </div>
                   </a>

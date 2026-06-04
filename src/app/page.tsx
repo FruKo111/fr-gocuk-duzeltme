@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import InfiniteMarquee from "@/components/Marquee";
 import Services from "@/components/Services";
+import PpfSection from "@/components/PpfSection";
+import AboutSection from "@/components/AboutSection";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 
@@ -17,6 +19,8 @@ export default function HomePage() {
         <Hero data={hero} whatsapp={business.whatsapp} />
         <InfiniteMarquee data={marquee} />
         <Services data={services} />
+        <PpfSection />
+        <AboutSection />
         <Gallery data={gallery} />
       </main>
       <Footer data={{ business, contact }} />

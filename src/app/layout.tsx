@@ -2,23 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FR Göçük Düzeltme | OLEX FILMS Resmî Bayii • Boyasız Göçük Düzeltme",
+  title: "Autoprime Ataşehir | Premium PPF Kaplama • Seramik Kaplama • Renk Değişimi",
   description:
-    "FR Göçük Düzeltme — OLEX FILMS resmî bayii. Boyasız göçük düzeltme, dolu hasarı onarımı, seramik kaplama ve PPF hizmetleri. Fotoğraf gönderin, anında fiyat alın.",
+    "Autoprime Ataşehir — Irona Protection Türkiye Distribütörü. İstanbul Ataşehir'de PPF şeffaf kaplama, seramik kaplama, renk değişimi, detaylı temizlik ve pasta cila hizmetleri. 10 yıl garanti, premium işçilik.",
   keywords: [
-    "boyasız göçük düzeltme",
-    "dolu hasarı onarımı",
-    "OLEX FILMS",
-    "seramik kaplama",
-    "PPF",
-    "detayling",
-    "göçük onarım",
-    "FR Göçük Düzeltme",
+    "PPF kaplama Ataşehir",
+    "seramik kaplama İstanbul",
+    "renk değişimi",
+    "boya koruma filmi",
+    "Irona Protection",
+    "arap kaplama",
+    "pasta cila",
+    "detaylı temizlik",
+    "Autoprime Ataşehir",
+    "oto kuaför Ataşehir",
   ],
   openGraph: {
-    title: "FR Göçük Düzeltme | OLEX FILMS Resmî Bayii",
+    title: "Autoprime Ataşehir | Premium PPF Kaplama & Araç Koruma",
     description:
-      "Boyasız göçük düzeltme, dolu hasarı onarımı ve premium detayling hizmetleri. Fotoğraf gönderin, fiyat alın.",
+      "İstanbul Ataşehir'de premium PPF kaplama, seramik kaplama ve renk değişimi hizmetleri. Irona Protection distribütörü. 10 yıl garanti.",
     type: "website",
     locale: "tr_TR",
   },
@@ -52,6 +54,27 @@ export default function RootLayout({
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5"
+        />
+
+        {/* Preload critical hero assets — instant video playback */}
+        <link
+          rel="preload"
+          href="/videos/autoprimeatasehirvideo.mp4"
+          as="video"
+          type="video/mp4"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          href="/images/gallery/autoprimeatasehirlogo.png"
+          as="image"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          href="/images/gallery/autoprimeatasehirbaslik.png"
+          as="image"
+          fetchPriority="high"
         />
       </head>
       <body className="min-h-screen bg-base-deep text-text-primary antialiased">

@@ -1,141 +1,156 @@
 {
   "business": {
-    "name": "FR GÖÇÜK DÜZELTME",
-    "slug": "fr-gocuk-duzeltme",
-    "phone": "+90 554 646 34 24",
-    "whatsapp": "905546463424",
-    "email": "info@frgocukduzeltme.com",
+    "name": "AUTOPRIME ATAŞEHİR",
+    "slug": "autoprime-atasehir",
+    "phone": "+90 532 374 58 38",
+    "whatsapp": "905323745838",
+    "email": "info@autoprimeatasehir.com",
     "address": {
-      "line1": "Fevzi Paşa OSB, Namık Kemal Blv. No:52 D:B",
-      "city": "Çerkezköy",
-      "state": "Tekirdağ",
-      "zip": "59500",
-      "mapEmbedUrl": "https://maps.google.com/maps?q=Fevzi+Pa%C5%9Fa+OSB+Nam%C4%B1k+Kemal+Blv+No:52+%C3%87erkezk%C3%B6y+Tekirda%C4%9F&t=&z=15&ie=UTF8&iwloc=&output=embed",
-      "mapLink": "https://maps.app.goo.gl/oTRK1aZzgxwn1Q6r8",
+      "line1": "Kayışdağı, Narçiçeği Sok. No:20",
+      "city": "Ataşehir",
+      "state": "İstanbul",
+      "zip": "34755",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=Kay%C4%B1%C5%9Fda%C4%9F%C4%B1+Nar%C3%A7i%C3%A7e%C4%9Fi+Sok+No:20+Ata%C5%9Fehir+%C4%B0stanbul&t=&z=15&ie=UTF8&iwloc=&output=embed",
+      "mapLink": "https://maps.app.goo.gl/NarCicegiSok20Atasehir",
       "coordinates": {
-        "lat": 41.2864,
-        "lng": 27.9996
+        "lat": 40.9873,
+        "lng": 29.1219
       }
     },
     "social": {
-      "instagram": "https://www.instagram.com/fr.gocukduzeltme/",
+      "instagram": "https://www.instagram.com/autoprimeatasehir/",
       "facebook": "",
       "youtube": ""
     }
   },
   "hero": {
-    "title": "FR GÖÇÜK",
-    "titleHighlight": "DÜZELTME",
-    "rotatingWords": ["kusursuz", "profesyonel", "hassas", "güvenilir", "premium"],
-    "subtitle": "OLEX FILMS Resmî Bayii • Boyasız Göçük Düzeltme • Dolu Hasarı Onarımı",
+    "title": "AUTOPRIME",
+    "titleHighlight": "ATAŞEHİR",
+    "rotatingWords": ["koruyun", "parlatın", "yenileyin", "güçlendirin", "dönüştürün"],
+    "subtitle": "İstanbul Ataşehir'de Premium PPF Kaplama • Seramik Kaplama • Renk Değişimi • Detaylı Temizlik",
     "cta": {
-      "text": "Fotoğraf Gönder",
-      "subtext": "Anında Fiyat Al",
-      "icon": "camera"
+      "text": "Hemen Teklif Al",
+      "subtext": "WhatsApp'tan Anında Fiyat",
+      "icon": "message-circle"
     },
-    "videoUrl": "/videos/0603.mp4",
-    "videoPoster": ""
+    "videoUrl": "/videos/autoprimeatasehirvideo.mp4",
+    "videoPoster": "",
+    "logoUrl": "/images/gallery/autoprimeatasehirlogo.png"
   },
   "marquee": {
     "items": [
-      "Boyasız Göçük Düzeltme",
-      "Dolu Hasarı Onarımı",
-      "Mini Hasar Onarımı",
-      "PPF Kaplama",
-      "Pasta Cila Boya Koruma",
-      "Araç Kaplama"
+      "PPF Şeffaf Kaplama",
+      "Irona Protection Distribütör",
+      "Renk Değişimi",
+      "Seramik Kaplama",
+      "Detaylı Temizlik",
+      "Pasta & Cila",
+      "10 Yıl Garanti",
+      "Premium İşçilik"
     ],
-    "speed": 40
+    "speed": 35
   },
   "services": [
     {
-      "id": "paintless-dent-repair",
-      "title": "Boyasız Göçük Düzeltme",
-      "description": "Aracınızın orijinal boyasına zarar vermeden, özel el aletleri ve vakum teknolojisi ile tüm göçükleri profesyonelce düzeltiyoruz. Kapı, çamurluk ve tavan göçüklerinde %100 başarı.",
-      "icon": "Car",
-      "features": [
-        "Orijinal boya korunur",
-        "1-3 saat arası işlem süresi",
-        "Dolu hasarı onarımı",
-        "Garantili işçilik"
-      ]
-    },
-    {
-      "id": "hail-repair",
-      "title": "Dolu Hasarı Onarımı",
-      "description": "Doğal afet sonrası oluşan dolu hasarlarını, aracınızın kaporta ve boya bütünlüğünü bozmadan onarıyoruz. Sigorta sürecinizde size rehberlik ediyoruz.",
-      "icon": "CloudLightning",
-      "features": [
-        "Tamamen boyasız onarım",
-        "Sigorta eksper desteği",
-        "Servis kalitesinde işçilik",
-        "Aynı gün teslim"
-      ]
-    },
-    {
-      "id": "ceramic-coating",
-      "title": "Seramik Kaplama",
-      "description": "OLEX FILMS teknolojisiyle aracınıza 9H sertlikte nano-seramik kaplama uyguluyoruz. UV ışınlarına, kimyasallara ve çizilmelere karşı üstün koruma sağlıyoruz.",
+      "id": "ppf-kaplama",
+      "title": "PPF Şeffaf Kaplama",
+      "description": "Aracınızı çizik ve darbelere karşı korumanın en iyi yolu. Neredeyse görünmez olan poliüretan film ile boyanızı yıllarca ilk günkü gibi koruyun. Irona Protection, Oracal ve Endura gibi premium markalarla çalışıyoruz.",
       "icon": "Shield",
       "features": [
-        "9H nano-seramik teknolojisi",
-        "5 yıl garanti",
-        "UV koruma",
-        "Hidrofobik yüzey"
+        "10 yıla varan garanti",
+        "Kendini onaran yüzey",
+        "Sararma yapmaz, leke tutmaz",
+        "Profesyonel uygulama"
       ]
     },
     {
-      "id": "paint-protection",
-      "title": "Boya Koruma Filmi",
-      "description": "OLEX FILMS'in premium PPF (Paint Protection Film) ürünleriyle aracınızın boyasını taş darbelerine, çizilmelere ve çevresel etkilere karşı görünmez bir kalkanla koruyun.",
-      "icon": "Layers",
+      "id": "renk-degisimi",
+      "title": "Renk Değişimi",
+      "description": "Aracınızı boyatmadan rengini değiştirin. Yüzlerce renk ve doku seçeneğiyle aracınıza yepyeni bir kimlik kazandırın. Oracal ve Endura'nın en kaliteli folyolarıyla uygulama yapıyoruz.",
+      "icon": "Palette",
       "features": [
-        "OLEX FILMS premium PPF",
-        "Kendini iyileştiren yüzey",
-        "Sararmama garantisi",
-        "Profesyonel uygulama"
+        "Boyasız renk değişimi",
+        "Yüzlerce renk seçeneği",
+        "Mat, parlak, karbon doku",
+        "Orijinal boya korunur"
+      ]
+    },
+    {
+      "id": "seramik-kaplama",
+      "title": "Seramik Kaplama",
+      "description": "Aracınıza maksimum parlaklık kazandırın. Nano-seramik teknolojisiyle UV ışınlarına, kimyasallara ve çizilmelere karşı üstün koruma sağlayın. Hidrofobik yüzey sayesinde su ve kir tutmaz.",
+      "icon": "Droplets",
+      "features": [
+        "Maksimum parlaklık",
+        "Hidrofobik yüzey",
+        "UV koruma",
+        "Uzun ömürlü koruma"
+      ]
+    },
+    {
+      "id": "detayli-temizlik",
+      "title": "Detaylı Temizlik",
+      "description": "Koltuklardan klima kanallarına, tabandan tavan döşemesine kadar aracınızın her noktasını titizlikle temizliyoruz. Çok daha temiz, çok daha sağlıklı bir iç mekan için profesyonel dokunuş.",
+      "icon": "Sparkles",
+      "features": [
+        "Klima kanalı temizliği",
+        "Derin koltuk yıkama",
+        "Taban ve tavan detayı",
+        "Antibakteriyel uygulama"
+      ]
+    },
+    {
+      "id": "pasta-cila",
+      "title": "Pasta & Cila",
+      "description": "Aracınızda zaman içinde oluşan kılcal çiziklerden kurtulun ve boya derinliğinizi artırın. Profesyonel pasta cila uygulamasıyla aracınız showroom parlaklığına kavuşsun.",
+      "icon": "Sun",
+      "features": [
+        "Kılcal çizik giderme",
+        "Boya derinliği artırma",
+        "Showroom parlaklığı",
+        "Oksidasyon temizleme"
       ]
     }
   ],
   "gallery": [
     {
       "id": "g1",
-      "videoUrl": "/videos/gallery/dolu-hasari.mp4",
-      "instagramUrl": "https://www.instagram.com/p/DSAhhLNjJ1m/",
-      "title": "Dolu Hasarı Bagaj Kapağı Onarımı",
-      "category": "Dolu Onarımı"
+      "videoUrl": "/videos/autoprimeatasehi1.mp4",
+      "instagramUrl": "",
+      "title": "Komple Renk Değişimi",
+      "category": "Renk Değişimi"
     },
     {
       "id": "g2",
-      "videoUrl": "/videos/gallery/ppf-kaplama.mp4",
-      "instagramUrl": "https://www.instagram.com/p/C6iu72UsJFD/",
-      "title": "Komple PPF Kaplama",
+      "videoUrl": "/videos/autoprimeatasehi2.mp4",
+      "instagramUrl": "",
+      "title": "Premium PPF Kaplama Uygulaması",
       "category": "PPF Kaplama"
     },
     {
       "id": "g3",
-      "videoUrl": "/videos/gallery/gocuk-duzeltme.mp4",
-      "instagramUrl": "https://www.instagram.com/p/C54F3EqMSbX/",
-      "title": "Boyasız Göçük Düzeltme",
-      "category": "Göçük Düzeltme"
+      "videoUrl": "/videos/autoprimeatasehi3.mp4",
+      "instagramUrl": "",
+      "title": "PPF Boya Koruma Filmi",
+      "category": "PPF Kaplama"
     }
   ],
   "contact": {
     "heading": "Aracınız Emin Ellerde",
-    "subheading": "Hasar fotoğrafınızı WhatsApp ile gönderin, dakikalar içinde fiyat teklifinizi alın. Ücretsiz keşif ve danışmanlık hizmetimizden faydalanın.",
+    "subheading": "Premium PPF kaplama, seramik kaplama ve renk değişimi hizmetlerimiz için hemen WhatsApp'tan ulaşın. Ücretsiz keşif ve danışmanlık hizmetimizden faydalanın.",
     "workHours": [
       { "days": "Pazartesi – Cumartesi", "hours": "09:00 – 19:00" },
       { "days": "Pazar", "hours": "Kapalı" }
     ],
     "cta": {
       "text": "WhatsApp'tan Ulaşın",
-      "href": "https://wa.me/905546463424"
+      "href": "https://wa.me/905323745838"
     }
   },
   "theme": {
     "accentColor": "accent",
-    "accentColorHex": "#c4f82a",
-    "secondaryAccent": "#1aff6b",
-    "borderRadius": "rounded-xl"
+    "accentColorHex": "#d4af37",
+    "secondaryAccent": "#e6c84d",
+    "borderRadius": "rounded-2xl"
   }
 }

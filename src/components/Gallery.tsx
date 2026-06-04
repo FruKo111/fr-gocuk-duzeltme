@@ -37,8 +37,8 @@ export default function Gallery({
           className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-super uppercase text-center"
           style={{ willChange: "transform, opacity" }}
         >
-          <span className="block">Dönüşüm</span>
-          <span className="block text-accent mt-1">Hikayeleri</span>
+          <span className="block">Premium</span>
+          <span className="block text-accent mt-1">Dönüşüm</span>
         </motion.h2>
       </LampContainer>
 

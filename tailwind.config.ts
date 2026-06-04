@@ -14,9 +14,23 @@ const config: Config = {
           border: "#2a2a2a",
         },
         accent: {
-          DEFAULT: "#c4f82a",
-          glow: "rgba(196, 248, 42, 0.15)",
-          muted: "rgba(196, 248, 42, 0.08)",
+          DEFAULT: "#d4af37",
+          light: "#e6c84d",
+          dark: "#b8941f",
+          glow: "rgba(212, 175, 55, 0.15)",
+          muted: "rgba(212, 175, 55, 0.06)",
+        },
+        gold: {
+          50: "#fdf8e8",
+          100: "#faf0c8",
+          200: "#f5e096",
+          300: "#e6c84d",
+          400: "#d4af37",
+          500: "#c49a2c",
+          600: "#b8941f",
+          700: "#8c6f15",
+          800: "#6e5810",
+          900: "#4a3b0a",
         },
         text: {
           primary: "#f5f5f5",
@@ -62,8 +76,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         pulseGlow: {
-          "0%, 100%": { boxShadow: "0 0 20px rgba(196,248,42,0.3)" },
-          "50%": { boxShadow: "0 0 40px rgba(196,248,42,0.6)" },
+          "0%, 100%": { boxShadow: "0 0 20px rgba(212,175,55,0.3)" },
+          "50%": { boxShadow: "0 0 40px rgba(212,175,55,0.6)" },
         },
         float: {
           "0%, 100%": { transform: "translateY(0px)" },
